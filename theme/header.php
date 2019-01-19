@@ -9,6 +9,10 @@
 
 <body <?php body_class(); ?>>
     
+<header>
+    <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+</header>
+    
 <div class="wrap">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">

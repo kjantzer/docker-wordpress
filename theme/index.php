@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-<h1>Index page</h1>
-
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-    <div>
-      <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
-    </div>
+    <h1>
+        <a href="<?php the_permalink(); ?>"><h3>Index: <?php the_title(); ?></h3></a>
+    </h1>
+    
+    <?php the_content(); ?>
 
 <?php endwhile; else: ?>
 <?php endif; ?>
