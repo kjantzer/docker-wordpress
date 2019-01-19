@@ -29,6 +29,6 @@ services:
      volumes:
        - ./wp-content:/var/www/html/wp-content
        - ./theme:/var/www/html/wp-content/themes/my-theme
-       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+       - ./php-settings.ini:/usr/local/etc/php/conf.d/php-settings.ini
 volumes:
     db_data:

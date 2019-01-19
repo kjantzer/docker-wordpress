@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h1>Single post</h1>
+<h1>Page post</h1>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

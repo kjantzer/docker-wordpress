@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css","style.less"],"names":[],"mappings":"AAAA;;;;;;ACOA,KACC,WAAA","file":"style.css","sourcesContent":[null,"/*!\n\tTheme Name: My Theme\n\tAuthor: Kevin Jantzer\n\tAuthor URI: http://kevinjantzer.com/\n\tDescription: Wordpres theme development\n\tVersion: 0.1\n*/\nbody {\n\tbackground: white;\n}"]}
